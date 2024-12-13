@@ -1,7 +1,7 @@
 const { Client } = require('pg');
 
 //* - - - </> [DATA] </> - - - *//
-const client = new Client({ user: "postgres", host: "localhost", database: "db_unravel", password: "kris0629", port: 5432 });
+const client = new Client({ user: "wayner", host: "localhost", database: "db_unravel", password: "kris0629", port: 5432 });
 
 //* - - - </> [DATA] </> - - - *//
 client.connect()
